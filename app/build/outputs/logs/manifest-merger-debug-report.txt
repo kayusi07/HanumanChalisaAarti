@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\user\.android\build-cache\e156f4304b7483f7ca34e7354ccf8ff905345f7b\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\user\.android\build-cache\f9da31d0ccd54e85185984fcdfdaae3da4b6bbe9\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\user\.android\build-cache\833be87c7f9dce53aa78450e03622c333883644f\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\user\.android\build-cache\ab91e329521f64409864edd7960b55b04d52d723\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\user\.android\build-cache\65569979b7354b69867db9d0aad39645409ec792\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\user\.android\build-cache\3461c61e709c312efe03f0831b84d504f18a1a4f\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\user\.android\build-cache\72c420902f6daf540f4f45bda77d9fff2dee5be7\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\user\.android\build-cache\98febf195cc26b3111cda5532646bd7530ee843e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\user\.android\build-cache\fe35667b63b799fb893423892a5baff75a3aaf58\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.1] C:\Users\user\.android\build-cache\e156f4304b7483f7ca34e7354ccf8ff905345f7b\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml
+application
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:11:5-36:19
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\user\.android\build-cache\e156f4304b7483f7ca34e7354ccf8ff905345f7b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\user\.android\build-cache\f9da31d0ccd54e85185984fcdfdaae3da4b6bbe9\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\user\.android\build-cache\833be87c7f9dce53aa78450e03622c333883644f\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\user\.android\build-cache\ab91e329521f64409864edd7960b55b04d52d723\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\user\.android\build-cache\65569979b7354b69867db9d0aad39645409ec792\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\user\.android\build-cache\3461c61e709c312efe03f0831b84d504f18a1a4f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\user\.android\build-cache\72c420902f6daf540f4f45bda77d9fff2dee5be7\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\user\.android\build-cache\98febf195cc26b3111cda5532646bd7530ee843e\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\user\.android\build-cache\fe35667b63b799fb893423892a5baff75a3aaf58\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:13:9-49
+	android:theme
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.hanumanJi.jai.SplashScreen
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:16:9-25:20
+	android:screenOrientation
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:19:13-49
+	android:label
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:17:13-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.hanumanJi.jai.MainActivity
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:26:9-27:20
+	android:name
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:26:19-64
+activity#com.hanumanJi.jai.NormalChalisa
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:28:9-29:20
+	android:name
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:28:19-65
+activity#com.hanumanJi.jai.Aarti
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:30:9-31:20
+	android:name
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:30:19-57
+activity#com.hanumanJi.hanumanChalisa.HanumanChalisaActivity
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:32:9-33:20
+	android:name
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:32:19-85
+activity#com.hanumanJi.hanumanChalisa.HClyrics
+ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:34:9-35:20
+	android:name
+		ADDED from H:\Projects\JaiHanuman\app\src\main\AndroidManifest.xml:34:19-71

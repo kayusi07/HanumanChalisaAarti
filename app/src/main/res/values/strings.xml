@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JaiHanuman</string>
+    
+    
+   <string name="a_settings">Settings</string>
+   <string name="hello_world">Now Playing:</string>
+   <string name="inital_Time">0 min, 0 sec</string>
+   
+   <string name="lyrics_englisg">
+      -------Doha-------\n
+
+\nShri Guru Charan Sarooja-raj Nija manu Mukura Sudhaari\n
+Baranau Rahubhara Bimala Yasha Jo Dayaka Phala Chari\n
+Budhee-Heen Thanu Jannikay Sumirow Pavana Kumara\n
+Bala-Budhee Vidya Dehoo Mohee Harahu Kalesha Vikaara\n\n
+
+
+-------Chopai-------\n\n
+
+Jai Hanuman gyan gun sagar\n
+Jai Kapis tihun lok ujagar\n\n
+
+
+Ram doot atulit bal dhama\n
+Anjaani-putra Pavan sut nama\n\n
+
+
+Mahabir Bikram Bajrangi\n
+Kumati nivar sumati Ke sangi\n\n
+
+
+Kanchan varan viraj subesa\n
+Kanan Kundal Kunchit Kesha\n\n
+
+
+Hath Vajra Aur Dhuvaje Viraje\n
+Kaandhe moonj janehu sajai\n\n
+
+
+Sankar suvan kesri Nandan\n
+Tej prataap maha jag vandan\n\n
+
+
+Vidyavaan guni ati chatur\n
+Ram kaj karibe ko aatur\n\n
+
+
+Prabu charitra sunibe-ko rasiya\n
+Ram Lakhan Sita man Basiya\n\n
+
+
+Sukshma roop dhari Siyahi dikhava\n
+Vikat roop dhari lank jarava\n\n
+
+
+Bhima roop dhari asur sanghare\n
+Ramachandra ke kaj sanvare\n\n
+
+
+Laye Sanjivan Lakhan Jiyaye\n
+Shri Raghuvir Harashi ur laye\n\n
+
+
+Raghupati Kinhi bahut badai\n
+Tum mam priye Bharat-hi-sam bhai\n\n
+
+
+Sahas badan tumharo yash gaave\n
+Asa-kahi Shripati kanth lagaave\n\n
+
+
+Sankadhik Brahmaadi Muneesa\n
+Narad-Sarad sahit Aheesa\n\n
+
+
+Yam Kuber Digpaal Jahan te\n
+Kavi kovid kahi sake kahan te\n\n
+
+
+Tum upkar Sugreevahin keenha\n
+Ram milaye rajpad deenha\n\n
+
+
+Tumharo mantra Vibheeshan maana\n
+Lankeshwar Bhaye Sub jag jana\n\n
+
+
+Yug sahastra jojan par Bhanu\n
+Leelyo tahi madhur phal janu\n\n
+
+
+Prabhu mudrika meli mukh mahee\n
+Jaladhi langhi gaye achraj nahee\n\n
+
+
+Durgaam kaj jagath ke jete\n
+Sugam anugraha tumhre tete\n\n
+
+
+Ram dwaare tum rakhvare\n
+Hoat na agya binu paisare\n\n
+
+
+Sub sukh lahae tumhari sar na\n
+Tum rakshak kahu ko dar naa\n\n
+
+
+Aapan tej samharo aapai\n
+Teenhon lok hank te kanpai\n\n
+
+
+Bhoot pisaach Nikat nahin aavai\n
+Mahavir jab naam sunavae\n\n
+
+
+Nase rog harae sab peera\n
+Japat nirantar Hanumant beera\n\n
+
+
+Sankat se Hanuman chudavae\n
+Man Karam Vachan dyan jo lavai\n\n
+
+
+Sab par Ram tapasvee raja\n
+Tin ke kaj sakal Tum saja\n\n
+
+
+Aur manorath jo koi lavai\n
+Sohi amit jeevan phal pavai\n\n
+
+
+Charon Yug partap tumhara\n
+Hai persidh jagat ujiyara\n\n
+
+
+Sadhu Sant ke tum Rakhware\n
+Asur nikandan Ram dulhare\n\n
+
+
+Ashta-sidhi nav nidhi ke dhata\n
+As-var deen Janki mata\n\n
+
+
+Ram rasayan tumhare pasa\n
+Sada raho Raghupati ke dasa\n\n
+
+
+Tumhare bhajan Ram ko pavai\n
+Janam-janam ke dukh bisraavai\n\n
+
+
+Anth-kaal Raghuvir pur jayee\n
+Jahan janam Hari-Bakht Kahayee\n\n
+
+
+Aur Devta Chit na dharehi\n
+Hanumanth se hi sarve sukh karehi\n\n
+
+
+Sankat kate-mite sab peera\n
+Jo sumirai Hanumat Balbeera\n\n
+
+
+Jai Jai Jai Hanuman Gosahin\n
+Kripa Karahu Gurudev ki nyahin\n\n
+
+
+Jo sat bar path kare kohi\n
+Chutehi bandhi maha sukh hohi\n\n
+
+
+Jo yah padhe Hanuman Chalisa\n
+Hoye siddhi sakhi Gaureesa\n\n
+
+
+Tulsidas sada hari chera\n
+Keejai Nath Hridaye mein dera\n\n
+
+
+-------Doha-------\n\n
+
+Pavan Tanay Sankat Harana \n
+Mangala Murati Roop\n
+Ram Lakhana Sita Sahita \n
+Hriday Basahu Soor Bhoop\n
+   </string>
+    <string name="lyrics_chalisa">-------दोहा -------\n
+
+श्री गुरु चरण सरज राज ,\n निज मनु मुकुर सुधारे |\n\n
+बरनौ रघुबर बिमल जासु ,\n जो धयक फल चारे ||\n\n
+
+बुधिहिएँ तनु जानके ,\n सुमेराव पवन -कुमार |\n\n
+बल बूढी विद्या देहु मोहे ,\n हरहु कलेस बिकार ||\n\n
+
+
+-------चोपाई -------\n\n
+
+जय हनुमान ज्ञान गुण सागर |\n
+जय कपिसे तहु लोक उजागर ||\n\n
+
+राम दूत अतुलित बल धामा |\n
+अनजानी पुत्र पवन सूत नामा ||\n\n
+
+महाबीर बिक्रम बज्रगी |\n
+कुमति निवास सुमति के संगी ||\n\n
+
+कंचन बरन बिराज सुबेसा |\n
+कण कुंडल कुंचित केसा ||\n\n
+
+हात वज्र औ दहेज बिराजे |\n
+कंधे मुज जनेऊ सजी ||\n\n
+
+संकर सुवन केसरीनंदन |\n
+तेज प्रताप महा जग बंधन ||\n\n
+
+विद्यावान गुने आती चतुर |\n
+राम काज कैबे को आतुर ||\n\n
+
+प्रभु चरित सुनिबे को रसिया |\n
+राम लखन सीता मान बसिया ||\n\n
+
+सुषम रूप धरी सियाही दिखावा |\n
+बिकट रूप धरी लंक जरावा ||\n\n
+
+भीम रूप धरी असुर सहरइ |\n
+रामचंद्र के काज सवारे ||\n\n
+
+लाये संजीवन लखन जियाये |\n
+श्रीरघुवीर हर्षा उरे लाये ||\n\n
+
+रघुपति किन्हें बहुत बड़ाई |\n
+तुम मम प्रिये भारत सम भाई ||\n\n
+
+सहरत बदन तुमर्हू जस गावे |\n
+आस कही श्रीपति कान्त लगावे ||\n\n
+
+संकदीक भ्रमधि मुनीसा |\n
+नारद सरद सहित अहिसा ||\n\n
+
+जम कुबेर दिगपाल जहा थी |\n
+कवी कोविद कही सके कहा थी ||\n\n
+
+तुम उपकार सुघुव कहिन |\n
+राम मिलाये राज पद देंह ||\n\n
+
+तुम्रहो मंत्र विभेक्षण मन |\n
+लंकेश्वर भये सब जग जान ||\n\n
+
+जुग सहेस जोजन पैर भानु |\n
+लिन्यो ताहि मधुर फल जणू ||\n\n
+
+प्रभु मुद्रिका मेली मुख माहि |\n
+जलधि लाधी गए अचरज नहीं ||\n\n
+
+दुर्गम काज जगत के जेते |\n
+सुगम अनुग्रह तुमरे तेते ||\n\n
+
+राम दुआरे तुम रखवारे |\n
+हूट न आगया बिनु पसरे ||\n\n
+
+सब सुख लहै तुम्हरे सरना |\n
+तुम रचक कहू को डारना ||\n\n
+
+आपण तेज सम्हारो आपे |\n
+तेनो लोक हकतइ कापे ||\n\n
+
+भुत पेसच निकट नहीं आवेह |\n
+महावीर जब नाम सुनावेह ||\n\n
+
+नसे रोग हरे सब पीरा |\n
+जपत निरंतर हनुमत बल बीरा ||\n\n
+
+संकट से हनुमान चुदावे |\n
+मान कम बचन दायाँ जो लावे ||\n\n
+
+सब पैर राम तपस्वी रजा |\n
+तिन के काज सकल तुम सजा ||\n\n
+
+और मनोरत जो कई लावे |\n
+टसुये अमित जीवन फल पावे ||\n\n
+
+चारो गुज प्रताप तुमारह |\n
+है प्रसिद्ध जगत ujeyara ||\n\n
+
+साधू संत के तुम रखवारे |\n
+असुर निकंदन राम दुलारे ||\n\n
+
+Ashat सीधी नवनिधि के डाटा |\n
+अस वर दीं जानकी माता ||\n\n
+
+राम रसायन तुम्हरे पासा |\n
+सदा रहो रघुपति के दस ||\n\n
+
+तुम्रेह भजन राम को भावे |\n
+जनम जनम के दुःख बिस्रावे ||\n\n
+
+अंत काल रघुबर पुर जी |\n
+जहा जनम हरी भगत कहेई ||\n\n
+
+और देवता चितन धरयो |\n
+हनुमत सेये सर्व सुख करेई ||\n\n
+
+संकट कटे मिटे सब पर |\n
+जो सुमेरे हनुमत बलबीर ||\n\n
+
+जय जय जय हनुमान गुसाई |\n
+कृपा करो गुरु देव के नाइ ||\n\n
+
+जो सैट बार पट कर कोई |\n
+चुतेही बंधी महा सुख होई ||\n\n
+
+जो यहे पड़े हनुमान चालीसा |\n
+होए सीधी सा के गोरेसा ||\n\n
+
+तुलसीदास सदा हरी चेरा |\n
+कीजेये नाथ हृदये महा डेरा ||\n\n
+
+-------दोहा -------\n\n
+
+पवंत्नाये संकट हरण , मंगल मूर्ति रूप |\n
+राम लखन सीता सहेत , हृदये बसु सुर भूप ||</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

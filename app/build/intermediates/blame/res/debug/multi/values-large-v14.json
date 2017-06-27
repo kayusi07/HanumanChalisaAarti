@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v14\\values-large-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 107,
+                    "endOffset": 158
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\values-large-v14\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 108,
+                        "endOffset": 160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 163,
+                    "endColumn": 119,
+                    "endOffset": 278
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\values-large-v14\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 166,
+                        "endColumn": 120,
+                        "endOffset": 282
+                    }
+                }
+            }
+        ]
+    }
+]

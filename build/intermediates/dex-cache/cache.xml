@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\65569979b7354b69867db9d0aad39645409ec792\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_660ea7f97ce08830619e3c069441111059810ef1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\72c420902f6daf540f4f45bda77d9fff2dee5be7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4bbaf5b7a2b185e03b3d10fe8c7f968df103fe8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\65569979b7354b69867db9d0aad39645409ec792\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69caac79250de841b26f7f69545d182c5bf6ae73\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\e156f4304b7483f7ca34e7354ccf8ff905345f7b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a605b22188f5ef55c977e8933bdbb08d62910b5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\72c420902f6daf540f4f45bda77d9fff2dee5be7\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_9139d0abadcbc4e33927ff6e64dd76caf6d54e1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\98febf195cc26b3111cda5532646bd7530ee843e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_53afef7610b30d3e1a3afabe54cfa510b2bb630a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\fe35667b63b799fb893423892a5baff75a3aaf58\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_cb4b3a6a9ba5c6218ad439e3d29fcd2dc8f7fa15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Projects\JaiHanuman\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0b616a4e3402f07d87ddeacdfd5ebe505349dd6">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1eb5cee1b1b7f5d9ba46e43793182efe9c48cc71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_5238579494918095f6fc6011657cd4d401286e17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\f9da31d0ccd54e85185984fcdfdaae3da4b6bbe9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d20c39ae80c635712b7ec00634b70d2bc980e26a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\3461c61e709c312efe03f0831b84d504f18a1a4f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f2de25996c9d67082096970824977b2b39f9605a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\98febf195cc26b3111cda5532646bd7530ee843e\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_7d6ee9b43151278c2694c347503218c098041820\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\ab91e329521f64409864edd7960b55b04d52d723\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_460b2e93d2a890d53e42c72eac34ced0523c2a12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\3461c61e709c312efe03f0831b84d504f18a1a4f\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_0a940cc7816aa3d3397175e9b59052e9730ea729\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\833be87c7f9dce53aa78450e03622c333883644f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2117042b1a826ade9be721875a890091455af6e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\fe35667b63b799fb893423892a5baff75a3aaf58\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35e1c2e9e7fe464a14b58b52965dd5eea7e6a540\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Projects\JaiHanuman\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="H:\Projects\JaiHanuman\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3169dfb66d004084f766e78ed43e741dc935b406\classes.dex" />
+    </item>
+
+</items>
