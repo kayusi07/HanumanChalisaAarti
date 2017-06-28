@@ -18,6 +18,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -31,7 +32,7 @@ import android.widget.Toast;
 import com.hanumanJi.jai.NormalChalisa;
 import com.hanumanJi.jai.R;
 
-@TargetApi(Build.VERSION_CODES.HONEYCOMB) @SuppressLint("NewApi") public class HanumanChalisaActivity extends Activity 
+@TargetApi(Build.VERSION_CODES.HONEYCOMB) @SuppressLint("NewApi") public class HanumanChalisaActivity extends AppCompatActivity
 {
 	
 	ViewPager viewPager;

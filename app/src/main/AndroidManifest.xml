@@ -5,7 +5,7 @@
     android:versionName="2.0" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="11"
         android:targetSdkVersion="25" />
 
     <application
@@ -13,10 +13,14 @@
         android:icon="@drawable/hanuman_ji_logo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity
             android:name="com.hanumanJi.jai.SplashScreen"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,12 +31,18 @@
         </activity>
         <activity android:name="com.hanumanJi.jai.NormalChalisa" >
         </activity>
-        <activity android:name="com.hanumanJi.jai.Aarti" >
+        <activity android:name="com.hanumanJi.jai.Aarti"
+            android:label="Hanuman Aarti">
         </activity>
-        <activity android:name="com.hanumanJi.hanumanChalisa.HanumanChalisaActivity" >
+        <activity android:name="com.hanumanJi.hanumanChalisa.HanumanChalisaActivity"
+            android:label="Hanuman Chalisa">
         </activity>
-        <activity android:name="com.hanumanJi.hanumanChalisa.HClyrics" >
+        <activity android:name="com.hanumanJi.hanumanChalisa.HClyrics"
+            android:label="Hanuman Chalisa Lyrics">
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>

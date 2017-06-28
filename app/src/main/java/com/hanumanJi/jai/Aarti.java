@@ -4,17 +4,23 @@ import java.util.concurrent.TimeUnit;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static com.hanumanJi.jai.R.id.coordinatorLayout;
+
 @SuppressLint("NewApi")
-public class Aarti extends Activity {
+public class Aarti extends AppCompatActivity {
 	public TextView songName, startTimeField, endTimeField;
 	private MediaPlayer mediaPlayer;
 	private double startTime = 0;
@@ -25,6 +31,7 @@ public class Aarti extends Activity {
 	private SeekBar seekbar;
 	private ImageButton playButton, pauseButton;
 	public static int oneTimeOnly = 0;
+	private CoordinatorLayout coordinatorLayout;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -39,13 +46,22 @@ public class Aarti extends Activity {
 		mediaPlayer = MediaPlayer.create(this, R.raw.hanuman_ji_aarti);
 		seekbar.setClickable(false);
 		pauseButton.setEnabled(false);
+		coordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinatorLayout);
 
 	}
 
 	@SuppressLint("NewApi")
 	public void play(View view) {
-		Toast.makeText(getApplicationContext(), "Playing Hanuman Aarti",
-				Toast.LENGTH_SHORT).show();
+
+		Snackbar snackbar = Snackbar
+				.make(coordinatorLayout, "Playing Hanuman Aarti", Snackbar.LENGTH_LONG);
+
+		View sbView = snackbar.getView();
+		TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+		textView.setTextColor(Color.YELLOW);
+		snackbar.show();
+
+
 		mediaPlayer.start();
 		finalTime = mediaPlayer.getDuration();
 		startTime = mediaPlayer.getCurrentPosition();
@@ -90,8 +106,14 @@ public class Aarti extends Activity {
 	};
 
 	public void pause(View view) {
-		Toast.makeText(getApplicationContext(), "Pausing Hanuman Aarti",
-				Toast.LENGTH_SHORT).show();
+		Snackbar snackbar = Snackbar
+				.make(coordinatorLayout, "Pausing Hanuman Aarti", Snackbar.LENGTH_LONG);
+
+		View sbView = snackbar.getView();
+		TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+		textView.setTextColor(Color.YELLOW);
+		snackbar.show();
+
 
 		mediaPlayer.pause();
 		pauseButton.setEnabled(false);
@@ -104,8 +126,14 @@ public class Aarti extends Activity {
 			startTime = startTime + forwardTime;
 			mediaPlayer.seekTo((int) startTime);
 		} else {
-			Toast.makeText(getApplicationContext(),
-					"Cannot jump forward 5 seconds", Toast.LENGTH_SHORT).show();
+			Snackbar snackbar = Snackbar
+					.make(coordinatorLayout, "Cannot jump forward 5 seconds", Snackbar.LENGTH_LONG);
+
+			View sbView = snackbar.getView();
+			TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+			textView.setTextColor(Color.YELLOW);
+			snackbar.show();
+
 		}
 
 	}
@@ -116,9 +144,14 @@ public class Aarti extends Activity {
 			startTime = startTime - backwardTime;
 			mediaPlayer.seekTo((int) startTime);
 		} else {
-			Toast.makeText(getApplicationContext(),
-					"Cannot jump backward 5 seconds", Toast.LENGTH_SHORT)
-					.show();
+
+			Snackbar snackbar = Snackbar
+					.make(coordinatorLayout, "Cannot jump backward 5 seconds", Snackbar.LENGTH_LONG);
+
+			View sbView = snackbar.getView();
+			TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+			textView.setTextColor(Color.YELLOW);
+			snackbar.show();
 		}
 
 	}

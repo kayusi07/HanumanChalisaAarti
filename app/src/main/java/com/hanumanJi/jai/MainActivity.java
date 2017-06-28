@@ -1,5 +1,7 @@
 package com.hanumanJi.jai;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.hanumanJi.hanumanChalisa.HanumanChalisaActivity;
 
 import android.annotation.TargetApi;
@@ -9,6 +11,8 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -26,20 +30,30 @@ import android.widget.Toast;
 public class MainActivity extends FragmentActivity {
 	ViewPager viewPager;
 	MyPagerAdapter myPagerAdapter;
-
+    private CoordinatorLayout coordinatorLayout;
 	Button fast;
 	Button aarti;
+    private AdView mAdView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+        mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+        mAdView.loadAd(adRequest);
+
 		fast = (Button) findViewById(R.id.fast);
 		aarti = (Button) findViewById(R.id.aarti);
 
 		viewPager = (ViewPager) findViewById(R.id.pager);
 		myPagerAdapter = new MyPagerAdapter();
+
+		coordinatorLayout = (CoordinatorLayout) findViewById(R.id
+				.coordinatorLayout);
+
 		viewPager.setAdapter(myPagerAdapter);
 
 		fast.setOnClickListener(new OnClickListener() {
@@ -98,12 +112,13 @@ public class MainActivity extends FragmentActivity {
 
 			TextView textView = new TextView(MainActivity.this);
 			textView.setTextColor(Color.WHITE);
-			textView.setTextSize(10);
-
+			textView.setTextSize(12);
+            textView.setPadding(10,10,10,10);
 			textView.setText("Do you know? #" + String.valueOf(position));
 
 			TextView factsText = new TextView(MainActivity.this);
 			factsText.setSingleLine(false);
+            factsText.setPadding(10,10,10,10);
 			factsText.setText(res[position]);
 			LayoutParams factsTextParams = new LayoutParams(
 					LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
@@ -130,9 +145,15 @@ public class MainActivity extends FragmentActivity {
 
 				@Override
 				public void onClick(View v) {
-					Toast.makeText(MainActivity.this,
-							"Please swipe right or left!", Toast.LENGTH_LONG)
-							.show();
+
+					Snackbar snackbar = Snackbar
+							.make(coordinatorLayout, "Please swipe right or left!", Snackbar.LENGTH_LONG);
+
+					View sbView = snackbar.getView();
+					TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+					textView.setTextColor(Color.YELLOW);
+					snackbar.show();
+
 				}
 			});
 
@@ -154,9 +175,28 @@ public class MainActivity extends FragmentActivity {
 	}
 
 	@Override
-	protected void onDestroy() {
-		finish();
-		super.onDestroy();
-	}
+    public void onPause() {
+        if (mAdView != null) {
+            mAdView.pause();
+        }
+        super.onPause();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (mAdView != null) {
+            mAdView.resume();
+        }
+    }
+
+    @Override
+    public void onDestroy() {
+        if (mAdView != null) {
+            mAdView.destroy();
+        }
+        finish();
+        super.onDestroy();
+    }
 
 }

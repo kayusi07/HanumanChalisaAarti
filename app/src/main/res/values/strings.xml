@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">JaiHanuman</string>
+    <string name="app_name">Hanuman Chalisa and Aarti</string>
+
+    <string name="banner_add">ca-app-pub-8708725033652742/1395399512</string>
     
     
    <string name="a_settings">Settings</string>

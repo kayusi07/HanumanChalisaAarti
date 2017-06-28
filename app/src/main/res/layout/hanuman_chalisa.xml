@@ -2,86 +2,76 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:weightSum="1"
-    android:background="@drawable/bgg"
-   >
-    <LinearLayout 
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_weight="0"
-         android:paddingBottom="20dp"
-         android:paddingLeft="20dp"
-         android:paddingRight="20dp"
-         android:paddingTop="7dp"
-        android:orientation="vertical">
-        
-        <TextView android:layout_height="wrap_content" 
-    		android:layout_width="match_parent"
-    		android:text="HANUMAN CHALISA"
-    		android:textSize="20dp"
-    		android:paddingBottom="10dp"
-    		android:gravity="center_horizontal"
-    		android:textStyle="bold"/>
-        
-       <LinearLayout 
-           android:layout_height="120dp"
-           android:layout_width="match_parent"
-           android:orientation="horizontal">
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
 
-           <ImageView 
-               android:layout_height="wrap_content"
-               android:layout_width="wrap_content"
-               android:src="@drawable/hanumanji_bringing_sanjeevani_buti"/>
-           
-           <View android:layout_height="wrap_content"
-               android:layout_width="40dp"
-               />
-           
-           <LinearLayout 
-           android:layout_height="wrap_content"
-           android:layout_width="wrap_content"
-           android:orientation="vertical">
-           
-           
-<Button 
-    android:id="@+id/playHanumanChalisa"
-    android:layout_height="wrap_content"
-    android:layout_width="wrap_content"
-    android:layout_gravity="center"
-    android:background="#2d64f5"
-    android:textColor="#ffffff"
-    android:layout_marginBottom="10dp"
-    android:layout_marginTop="10dp"
-    android:textStyle="bold"
-    android:text="    PLAY    "/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-<Button 
-    android:id="@+id/lyricsHC"
-    android:layout_height="wrap_content"
-    android:layout_width="wrap_content"
-    android:layout_gravity="center"
-    android:background="#2d64f5"
-    android:textColor="#ffffff"
-     android:textStyle="bold"
-    android:text="  LYRICS  "/>
-</LinearLayout>
-</LinearLayout>
-</LinearLayout>
-<LinearLayout 
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/hanu" />
 
-   <android.support.v4.view.ViewPager
-     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/pagerMeaning"
-    android:layout_width="match_parent"
-    android:layout_weight="1"
-    android:paddingLeft="5dp"
-    android:paddingRight="5dp"
-    android:paddingBottom="5dp"
-    android:layout_height="wrap_content" />
-   </LinearLayout>
-   
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/playHanumanChalisa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:background="@color/colorAccent"
+                    android:text="   PLAY chalisa   "
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/lyricsHC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/colorAccent"
+                    android:padding="5dp"
+                    android:text="     LYRICS     "
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pagerMeaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+    </LinearLayout>
+
 </LinearLayout>
