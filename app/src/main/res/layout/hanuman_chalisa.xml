@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
-    android:orientation="vertical"
-    android:weightSum="1">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,11 +36,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="5dp"
                     android:padding="5dp"
+                    android:drawableLeft="@android:drawable/ic_media_play"
                     android:background="@color/colorAccent"
-                    android:text="   PLAY chalisa   "
+                    android:text="  PLAY chalisa  "
+                    android:textAllCaps="false"
                     android:textColor="#ffffff"
                     android:textStyle="bold" />
 
@@ -52,7 +53,10 @@
                     android:layout_gravity="center"
                     android:background="@color/colorAccent"
                     android:padding="5dp"
-                    android:text="     LYRICS     "
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@android:drawable/ic_menu_view"
+                    android:text="  READ chalisa  "
+                    android:textAllCaps="false"
                     android:textColor="#ffffff"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -67,7 +71,6 @@
             android:id="@+id/pagerMeaning"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:paddingLeft="20dp"

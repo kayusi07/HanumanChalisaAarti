@@ -4,13 +4,15 @@
     <string name="app_name">Hanuman Chalisa and Aarti</string>
 
     <string name="banner_add">ca-app-pub-8708725033652742/1395399512</string>
-    
-    
-   <string name="a_settings">Settings</string>
-   <string name="hello_world">Now Playing:</string>
-   <string name="inital_Time">0 min, 0 sec</string>
-   
-   <string name="lyrics_englisg">
+
+
+    <string name="a_settings">Settings</string>
+    <string name="hello_world">Now Playing:</string>
+    <string name="inital_Time">0 min, 0 sec</string>
+    <string name="end_Time">4 min, 40 sec</string>
+
+
+    <string name="lyrics_englisg">
       -------Doha-------\n
 
 \nShri Guru Charan Sarooja-raj Nija manu Mukura Sudhaari\n
@@ -323,6 +325,46 @@ Ashat सीधी नवनिधि के डाटा |\n
 
 पवंत्नाये संकट हरण , मंगल मूर्ति रूप |\n
 राम लखन सीता सहेत , हृदये बसु सुर भूप ||</string>
+
+
+    <string name="aarti_english">Aarti Ki Jai Hanuman Lala Ki,\n Dushat Dalan Ragunath Kala Ki.\n\n
+Ja Ke Bal Se Giriver Kaanpe,\n Rog Dosh Ja Ke Nikat Na Jaanke.\n\n
+
+Anjani Putra Mahabaldaye,\n Santan Ke Prabhu Sada Sahaye.\n\n
+De Beeraha Raghunath Pathai,\n Lanka Jaari Siya Sudhi Laiye.\n\n
+
+Lanka So Kot Samundra Se Khaiy,\n Jaat Pavan Sut Baar Na Laiye.\n\n
+Lanka Jaari Asur Sab Maare,\n Siya Ramji Ke Kaaj Sanvare.\n\n
+
+Lakshman Moorchit Parhe Sakare,\n Aan Sajeevan Pran Ubhaare.\n\n
+Paith Pataal Tori Yamkare,\n Ahiravan Ke Bhuja Ukhaare.\n\n
+
+Baayen Bhuja Asur Dal Mare,\n Daayen Bhuja Sab Santa Jana Tare.\n\n
+Surnar Munijan Aarti Utare,\n Jai Jai Jai Hanuman Uchaare.\n\n
+
+Kanchan Thaar Kapoor Lo Chhai,\n Aarti Karat Aajani Mai.\n\n
+Jo Hanumanji Ki Aarti Gaave,\n Basi Baikuntha Amar Padh Pave.\n\n
+
+Lanka Vidvance Kiye Ragurai,\n Tulsidas Swami Aarti Gaaie.\n\n
+Aarti Ki Jai Hanuman Lala Ki,\n Dushat Dalan Ragunath Kala Ki.\n\n
+
+Pawan Tanay Sankat Haran Managal Moorti Roop,\n
+Ram Lakhan Sita Sahit Hridaya Bhasu Sur Bhoop
+    </string>
+    <string name="aarti_hindi">
+    आरती कीजै हनुमान लला की |\n दुष्ट दलन रघुनाथ कला की ||\n\n
+जाके बल से गिरिवर काँपै |\n रोग-दोष जाके निकट न झाँपै ||\n\n
+अंजनी पुत्र महा बलदाई |\n संतन के प्रभु सदा सहाई ||\n\n
+दे बीरा रघुनाथ पठाए |\n लंका जारि सिया सुधि लाए ||\n\n
+लंका सो कोट समुद्र सी खाई |\n जात पवनसुत बार न लाई ||\n\n
+लंका जारि असुर संहारे |\n सियारामजी के काज सँवारे ||\n\n
+लक्ष्मण मूर्छित पड़े सकारे |\n आनि सजीवन प्रान उबारे ||\n\n
+पैठि पाताल तोरि जम-कारे |\n अहिरावन की भुजा उखारे ||\n\n
+बाएं भुजा असुर दल मारे |\n दहिने भुजा संतजन तारे ||\n\n
+सुर नर मुनि आरती उतारें |\n जै जै जै हनुमान उचारें ||\n\n
+कंचन थार कपूर लौ छाई |\n आरति करत अंजना माई ||\n\n
+जो हनुमानजी की आरति गावै |\n बसि बैकुण्ठ परम पद पावै ||\n\n
+</string>
     <string name="action_settings">Settings</string>
 
 </resources>

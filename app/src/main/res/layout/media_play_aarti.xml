@@ -1,105 +1,155 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
-
-    <ImageView
-        android:id="@+id/imageView1A"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_weight="0.3"
-        android:background="#f8ecc2"
-        android:src="@drawable/hanuman_aarti" />
-
     <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.7"
-        android:background="@android:color/darker_gray"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context=".MainActivity" >
+        android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/imageButton3A"
+        <ImageView
+            android:id="@+id/imageView1A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:src="@drawable/hanuman_wallpaper" />
+
+        <LinearLayout
+            android:id="@+id/l_media"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1A"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/bars"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView1A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:text="@string/inital_Time"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <SeekBar
+                    android:id="@+id/seekBar1A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8" />
+
+                <TextView
+                    android:id="@+id/textView2A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:gravity="end"
+                    android:text="@string/inital_Time"
+                    android:textAlignment="viewEnd"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/b_forward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:onClick="forward"
+                    android:src="@android:drawable/ic_media_ff" />
+
+                <ImageButton
+                    android:id="@+id/b_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="play"
+                    android:padding="10dp"
+                    android:src="@android:drawable/ic_media_play" />
+
+                <ImageButton
+                    android:id="@+id/b_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="pause"
+                    android:padding="10dp"
+                    android:src="@android:drawable/ic_media_pause" />
+
+                <ImageButton
+                    android:id="@+id/b_rewind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:onClick="rewind"
+                    android:src="@android:drawable/ic_media_rew" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/aartiLyrics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:drawableLeft="@android:drawable/ic_menu_view"
+            android:text="  READ aarti (English/Hindi)  "
+            android:textAllCaps="false"
+            android:layout_below="@+id/l_media"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_marginBottom="14dp"
-            android:onClick="forward"
-            android:src="@android:drawable/ic_media_ff" />
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_add"></com.google.android.gms.ads.AdView>
 
-        <ImageButton
-            android:id="@+id/imageButton4A"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_alignTop="@+id/imageButton2A"
-            android:layout_marginLeft="22dp"
-            android:layout_toRightOf="@+id/imageButton2A"
-            android:onClick="rewind"
-            android:src="@android:drawable/ic_media_rew" />
-
-        <ImageButton
-            android:id="@+id/imageButton2A"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/imageButton1A"
-            android:layout_marginLeft="14dp"
-            android:layout_toRightOf="@+id/imageButton1A"
-            android:onClick="pause"
-            android:src="@android:drawable/ic_media_pause" />
-
-        <ImageButton
-            android:id="@+id/imageButton1A"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/imageButton3A"
-            android:layout_marginLeft="24dp"
-            android:layout_toRightOf="@+id/imageButton3A"
-            android:onClick="play"
-            android:src="@android:drawable/ic_media_play" />
-
-        <SeekBar
-            android:id="@+id/seekBar1A"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/imageButton3A"
-            android:layout_toLeftOf="@+id/textView2A"
-            android:layout_toRightOf="@+id/textView1A" />
-
-        <TextView
-            android:id="@+id/textView1A"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignRight="@+id/imageButton3A"
-            android:layout_alignTop="@+id/seekBar1A"
-            android:text="@string/inital_Time"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
-
-        <TextView
-            android:id="@+id/textView2A"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/imageButton4A"
-            android:layout_alignTop="@+id/seekBar1A"
-            android:text="@string/inital_Time"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
     </RelativeLayout>
 
-</LinearLayout>
-    </android.support.design.widget.CoordinatorLayout>
+
+</android.support.design.widget.CoordinatorLayout>

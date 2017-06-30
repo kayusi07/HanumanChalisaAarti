@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hanumanJi.jai"
     android:versionCode="4"
-    android:versionName="2.0" >
+    android:versionName="2.0">
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -12,7 +12,7 @@
         android:allowBackup="true"
         android:icon="@drawable/hanuman_ji_logo"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -20,26 +20,29 @@
 
         <activity
             android:name="com.hanumanJi.jai.SplashScreen"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hanumanJi.jai.MainActivity" >
-        </activity>
-        <activity android:name="com.hanumanJi.jai.NormalChalisa" >
-        </activity>
-        <activity android:name="com.hanumanJi.jai.Aarti"
-            android:label="Hanuman Aarti">
-        </activity>
-        <activity android:name="com.hanumanJi.hanumanChalisa.HanumanChalisaActivity"
-            android:label="Hanuman Chalisa">
-        </activity>
-        <activity android:name="com.hanumanJi.hanumanChalisa.HClyrics"
-            android:label="Hanuman Chalisa Lyrics">
-        </activity>
+        <activity android:name="com.hanumanJi.jai.MainActivity"></activity>
+        <activity
+            android:name="com.hanumanJi.jai.NormalChalisa"
+            android:label="Hanuman Chalisa"></activity>
+        <activity
+            android:name="com.hanumanJi.jai.Aarti"
+            android:label="Hanuman Aarti"></activity>
+        <activity
+            android:name="com.hanumanJi.hanumanChalisa.HanumanChalisaActivity"
+            android:label="Hanuman Chalisa"></activity>
+        <activity
+            android:name="com.hanumanJi.hanumanChalisa.HClyrics"
+            android:label="Hanuman Chalisa Lyrics"></activity>
+        <activity
+            android:name=".AartiLyrics"
+            android:label="Hanuman Aarti Lyrics"></activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
