@@ -19,6 +19,8 @@ import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.hanumanJi.hanumanChalisa.AdInterstitial;
+import com.hanumanJi.hanumanChalisa.HanumanChalisaActivity;
 
 @SuppressLint("NewApi")
 public class Aarti extends AppCompatActivity {
@@ -53,6 +55,10 @@ public class Aarti extends AppCompatActivity {
 		alyrics.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
+
+				Intent iadd = new Intent(Aarti.this, AdInterstitial.class);
+				startActivity(iadd);
+
 				Intent i = new Intent(Aarti.this, AartiLyrics.class);
 				startActivity(i);
 			}
