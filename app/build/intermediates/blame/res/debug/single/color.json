@@ -4,10 +4,6 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
@@ -32,10 +28,6 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text_holo.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\color\\abc_search_url_text_holo.xml"
-    },
-    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
@@ -46,10 +38,6 @@
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
@@ -64,8 +52,16 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\color\\design_error.xml"
+    },
+    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",

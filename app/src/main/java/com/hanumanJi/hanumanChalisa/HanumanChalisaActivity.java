@@ -61,9 +61,6 @@ public class HanumanChalisaActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent iadd = new Intent(HanumanChalisaActivity.this, AdInterstitial.class);
-                startActivity(iadd);
-
                 Intent i = new Intent(HanumanChalisaActivity.this, HClyrics.class);
                 startActivity(i);
             }

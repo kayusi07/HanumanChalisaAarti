@@ -1,38 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hanumanJi.jai"
-    android:versionCode="4"
-    android:versionName="2.0" >
+    android:versionCode="6"
+    android:versionName="2.2" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="11"
         android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/hanuman_ji_logo"
-        android:label="@string/app_name"
+        android:label="@string/app_name_new"
         android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity
             android:name="com.hanumanJi.jai.SplashScreen"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hanumanJi.jai.MainActivity" >
-        </activity>
-        <activity android:name="com.hanumanJi.jai.NormalChalisa" >
-        </activity>
-        <activity android:name="com.hanumanJi.jai.Aarti" >
-        </activity>
-        <activity android:name="com.hanumanJi.hanumanChalisa.HanumanChalisaActivity" >
-        </activity>
-        <activity android:name="com.hanumanJi.hanumanChalisa.HClyrics" >
-        </activity>
+        <activity
+            android:name="com.hanumanJi.jai.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hanumanJi.jai.NormalChalisa"
+            android:label="Hanuman Chalisa" />
+        <activity
+            android:name="com.hanumanJi.jai.Aarti"
+            android:label="Hanuman Aarti" />
+        <activity
+            android:name="com.hanumanJi.hanumanChalisa.HanumanChalisaActivity"
+            android:label="Hanuman Chalisa" />
+        <activity
+            android:name="com.hanumanJi.hanumanChalisa.HClyrics"
+            android:label="Hanuman Chalisa Lyrics" />
+        <activity
+            android:name="com.hanumanJi.jai.AartiLyrics"
+            android:label="Hanuman Aarti Lyrics" />
+        <activity
+            android:name="com.hanumanJi.hanumanChalisa.AdInterstitial"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

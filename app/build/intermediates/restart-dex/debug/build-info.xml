@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1498584957409"
+    timestamp="1499679636374"
     token="-8726093176588413108"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,12 +23,37 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="H:\Projects\JaiHanuman\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1498570691273"
+        timestamp="1499678525062"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="H:\Projects\JaiHanuman\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -37,77 +62,19 @@
             location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
             location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1498573362721"
+        timestamp="1499679636374"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="H:\Projects\JaiHanuman\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
             location="H:\Projects\JaiHanuman\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1498584957409"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

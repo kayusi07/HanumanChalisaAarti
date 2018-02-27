@@ -4,12 +4,8 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wallpaper.png",
-        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\drawable\\wallpaper.png"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hanumanji_bringing_sanjeevani_buti.png",
-        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\drawable\\hanumanji_bringing_sanjeevani_buti.png"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
@@ -22,10 +18,6 @@
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\drawable\\abc_search_dropdown_dark.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
@@ -48,8 +40,12 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hanu.jpg",
+        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\drawable\\hanu.jpg"
+    },
+    {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\drawable\\design_ic_visibility.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
@@ -68,24 +64,12 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\drawable\\abc_spinner_ab_holo_light.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hanuman_wallpaper.jpg",
+        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\drawable\\hanuman_wallpaper.jpg"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
-        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
@@ -96,12 +80,12 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgg.png",
-        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\drawable\\bgg.png"
-    },
-    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgg.png",
+        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\drawable\\bgg.png"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
@@ -110,10 +94,6 @@
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
@@ -128,10 +108,6 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\drawable\\abc_ic_clear.xml"
-    },
-    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
@@ -140,24 +116,24 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\drawable\\abc_search_dropdown_light.xml"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
@@ -176,10 +152,6 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
-    },
-    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
@@ -188,8 +160,8 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
-        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
@@ -200,16 +172,8 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\drawable\\abc_ic_clear_holo_light.xml"
-    },
-    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hanuman_aarti.jpg",
-        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\drawable\\hanuman_aarti.jpg"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",

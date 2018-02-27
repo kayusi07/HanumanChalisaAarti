@@ -2054,6 +2054,27 @@
                         "endOffset": 20962
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 20967,
+                    "endLine": 289,
+                    "endColumn": 12,
+                    "endOffset": 21156
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 244
+                    }
+                }
             }
         ]
     }

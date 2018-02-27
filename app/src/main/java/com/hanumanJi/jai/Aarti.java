@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -19,11 +20,10 @@ import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.hanumanJi.hanumanChalisa.AdInterstitial;
-import com.hanumanJi.hanumanChalisa.HanumanChalisaActivity;
+import com.hanumanJi.hanumanChalisa.NetworkStateReceiver;
 
 @SuppressLint("NewApi")
-public class Aarti extends AppCompatActivity {
+public class Aarti extends AppCompatActivity implements NetworkStateReceiver.NetworkStateReceiverListener{
 	public TextView songName, startTimeField, endTimeField;
 	private MediaPlayer mediaPlayer;
 	private double startTime = 0;
@@ -36,11 +36,16 @@ public class Aarti extends AppCompatActivity {
 	public static int oneTimeOnly = 0;
 	AdView mAdView;
 	private CoordinatorLayout coordinatorLayout;
+	private NetworkStateReceiver networkStateReceiver;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.media_play_aarti);
+
+		networkStateReceiver = new NetworkStateReceiver();
+		networkStateReceiver.addListener(this);
+		this.registerReceiver(networkStateReceiver, new IntentFilter(android.net.ConnectivityManager.CONNECTIVITY_ACTION));
 
 		startTimeField = (TextView) findViewById(R.id.textView1A);
 		endTimeField = (TextView) findViewById(R.id.textView2A);
@@ -55,19 +60,12 @@ public class Aarti extends AppCompatActivity {
 		alyrics.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-
-				Intent iadd = new Intent(Aarti.this, AdInterstitial.class);
-				startActivity(iadd);
-
 				Intent i = new Intent(Aarti.this, AartiLyrics.class);
 				startActivity(i);
 			}
 		});
 
 		mAdView = (AdView) findViewById(R.id.adView);
-		AdRequest adRequest = new AdRequest.Builder()
-				.build();
-		mAdView.loadAd(adRequest);
 
 	}
 
@@ -179,7 +177,8 @@ public class Aarti extends AppCompatActivity {
 
 	@Override
 	protected void onDestroy() {
-
+		networkStateReceiver.removeListener(this);
+		this.unregisterReceiver(networkStateReceiver);
 		if (mAdView != null) {
 			mAdView.destroy();
 		}
@@ -192,6 +191,19 @@ public class Aarti extends AppCompatActivity {
 		super.onDestroy();
 	}
 
+	@Override
+	public void networkAvailable() {
+
+		mAdView.setVisibility(View.VISIBLE);
+		AdRequest adRequest = new AdRequest.Builder()
+				.build();
+		mAdView.loadAd(adRequest);
+	}
+
+	@Override
+	public void networkUnavailable() {
+		mAdView.setVisibility(View.GONE);
+	}
 
 	@Override
 	public void onPause() {

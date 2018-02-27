@@ -3,10 +3,12 @@ package com.hanumanJi.jai;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.hanumanJi.hanumanChalisa.HanumanChalisaActivity;
+import com.hanumanJi.hanumanChalisa.NetworkStateReceiver;
 
 import android.annotation.TargetApi;
 import android.app.ActionBar.LayoutParams;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
@@ -27,23 +29,25 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends FragmentActivity implements NetworkStateReceiver.NetworkStateReceiverListener{
 	ViewPager viewPager;
 	MyPagerAdapter myPagerAdapter;
     private CoordinatorLayout coordinatorLayout;
 	Button fast;
 	Button aarti;
     private AdView mAdView;
+	private NetworkStateReceiver networkStateReceiver;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+		networkStateReceiver = new NetworkStateReceiver();
+		networkStateReceiver.addListener(this);
+		this.registerReceiver(networkStateReceiver, new IntentFilter(android.net.ConnectivityManager.CONNECTIVITY_ACTION));
+
         mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .build();
-        mAdView.loadAd(adRequest);
 
 		fast = (Button) findViewById(R.id.fast);
 		aarti = (Button) findViewById(R.id.aarti);
@@ -192,11 +196,27 @@ public class MainActivity extends FragmentActivity {
 
     @Override
     public void onDestroy() {
+		networkStateReceiver.removeListener(this);
+		this.unregisterReceiver(networkStateReceiver);
         if (mAdView != null) {
             mAdView.destroy();
         }
         finish();
         super.onDestroy();
     }
+
+	@Override
+	public void networkAvailable() {
+
+		mAdView.setVisibility(View.VISIBLE);
+		AdRequest adRequest = new AdRequest.Builder()
+				.build();
+		mAdView.loadAd(adRequest);
+	}
+
+	@Override
+	public void networkUnavailable() {
+		mAdView.setVisibility(View.GONE);
+	}
 
 }

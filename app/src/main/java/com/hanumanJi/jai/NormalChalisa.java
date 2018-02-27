@@ -3,6 +3,7 @@ package com.hanumanJi.jai;
 import java.util.concurrent.TimeUnit;
 
 import android.annotation.SuppressLint;
+import android.content.IntentFilter;
 import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -17,15 +18,16 @@ import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.hanumanJi.hanumanChalisa.NetworkStateReceiver;
 
-public class NormalChalisa extends AppCompatActivity {
+public class NormalChalisa extends AppCompatActivity implements NetworkStateReceiver.NetworkStateReceiverListener{
 
     public TextView songName, startTimeField, endTimeField;
     private MediaPlayer mediaPlayer;
     private double startTime = 0;
     private double finalTime = 0;
     private Handler myHandler = new Handler();
-    ;
+    private NetworkStateReceiver networkStateReceiver;
     private int forwardTime = 5000;
     private int backwardTime = 5000;
     private SeekBar seekbar;
@@ -39,10 +41,11 @@ public class NormalChalisa extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.media_play_normal);
 
+        networkStateReceiver = new NetworkStateReceiver();
+        networkStateReceiver.addListener(this);
+        this.registerReceiver(networkStateReceiver, new IntentFilter(android.net.ConnectivityManager.CONNECTIVITY_ACTION));
+
         mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .build();
-        mAdView.loadAd(adRequest);
 
         startTimeField = (TextView) findViewById(R.id.textView1N);
         endTimeField = (TextView) findViewById(R.id.textView2N);
@@ -163,6 +166,9 @@ public class NormalChalisa extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
+        networkStateReceiver.removeListener(this);
+        this.unregisterReceiver(networkStateReceiver);
+
         if (mAdView != null) {
             mAdView.destroy();
         }
@@ -174,6 +180,20 @@ public class NormalChalisa extends AppCompatActivity {
 
         }
         super.onDestroy();
+    }
+
+    @Override
+    public void networkAvailable() {
+
+        mAdView.setVisibility(View.VISIBLE);
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+        mAdView.loadAd(adRequest);
+    }
+
+    @Override
+    public void networkUnavailable() {
+        mAdView.setVisibility(View.GONE);
     }
 
     @Override

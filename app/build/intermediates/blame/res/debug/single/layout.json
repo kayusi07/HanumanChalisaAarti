@@ -1,5 +1,13 @@
 [
     {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
@@ -16,6 +24,10 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\notification_template_lines_media.xml"
     },
@@ -24,20 +36,12 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_decor.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\layout\\abc_simple_decor.xml"
-    },
-    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\media_play_normal.xml",
         "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\layout\\media_play_normal.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\media_play.xml",
-        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\layout\\media_play.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
@@ -60,10 +64,6 @@
         "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\layout\\activity_card_flip.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\layout\\abc_action_bar_decor_overlay.xml"
-    },
-    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
@@ -72,8 +72,16 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
@@ -104,6 +112,10 @@
         "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\layout\\fragment_card_front.xml"
     },
     {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_search_view.xml"
     },
@@ -120,6 +132,10 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
@@ -132,20 +148,28 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tabbar.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\layout\\abc_action_bar_tabbar.xml"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_aarti_hindi.xml",
+        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\layout\\frag_aarti_hindi.xml"
+    },
+    {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_aarti_english.xml",
+        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\layout\\frag_aarti_english.xml"
+    },
+    {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\layout\\abc_activity_chooser_view_include.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
@@ -156,10 +180,6 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\layout\\abc_action_bar_home.xml"
-    },
-    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
@@ -168,12 +188,16 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_activity.xml",
         "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\layout\\splash_activity.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hanuman_chalisa.xml",
@@ -184,16 +208,20 @@
         "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\layout\\hc_meaning_hindi.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\layout\\abc_action_bar_decor.xml"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_card_back.xml",
@@ -220,6 +248,10 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
@@ -228,16 +260,8 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tab.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\layout\\abc_action_bar_tab.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_include.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\layout\\abc_action_bar_decor_include.xml"
-    },
-    {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\092eb7661459c1b9d9f59f6bb75f437251648377\\output\\res\\layout\\abc_action_mode_close_item.xml"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ad_interstitial.xml",
+        "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\layout\\ad_interstitial.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
@@ -248,11 +272,15 @@
         "source": "H:\\Projects\\JaiHanuman\\app\\src\\main\\res\\layout\\media_play_aarti.xml"
     },
     {
-        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d4fbc4b785a6cb097ae659fd5f10fba506bf20b4\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
         "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "H:\\Projects\\JaiHanuman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\e156f4304b7483f7ca34e7354ccf8ff905345f7b\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     }
 ]
