@@ -13,20 +13,18 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.fragment.app.FragmentActivity;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class MainActivity extends FragmentActivity implements NetworkStateReceiver.NetworkStateReceiverListener{
@@ -154,7 +152,7 @@ public class MainActivity extends FragmentActivity implements NetworkStateReceiv
 							.make(coordinatorLayout, "Please swipe right or left!", Snackbar.LENGTH_LONG);
 
 					View sbView = snackbar.getView();
-					TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+					TextView textView = (TextView) sbView.findViewById(com.google.android.material.R.id.snackbar_text);
 					textView.setTextColor(Color.YELLOW);
 					snackbar.show();
 

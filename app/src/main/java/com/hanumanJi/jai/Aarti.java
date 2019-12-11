@@ -9,9 +9,9 @@ import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -76,7 +76,7 @@ public class Aarti extends AppCompatActivity implements NetworkStateReceiver.Net
 				.make(coordinatorLayout, "Playing Hanuman Aarti", Snackbar.LENGTH_LONG);
 
 		View sbView = snackbar.getView();
-		TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+		TextView textView = (TextView) sbView.findViewById(com.google.android.material.R.id.snackbar_text);
 		textView.setTextColor(Color.YELLOW);
 		snackbar.show();
 
@@ -129,7 +129,7 @@ public class Aarti extends AppCompatActivity implements NetworkStateReceiver.Net
 				.make(coordinatorLayout, "Pausing Hanuman Aarti", Snackbar.LENGTH_LONG);
 
 		View sbView = snackbar.getView();
-		TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+		TextView textView = (TextView) sbView.findViewById(com.google.android.material.R.id.snackbar_text);
 		textView.setTextColor(Color.YELLOW);
 		snackbar.show();
 
@@ -149,7 +149,7 @@ public class Aarti extends AppCompatActivity implements NetworkStateReceiver.Net
 					.make(coordinatorLayout, "Cannot jump forward 5 seconds", Snackbar.LENGTH_LONG);
 
 			View sbView = snackbar.getView();
-			TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+			TextView textView = (TextView) sbView.findViewById(com.google.android.material.R.id.snackbar_text);
 			textView.setTextColor(Color.YELLOW);
 			snackbar.show();
 
@@ -168,7 +168,7 @@ public class Aarti extends AppCompatActivity implements NetworkStateReceiver.Net
 					.make(coordinatorLayout, "Cannot jump backward 5 seconds", Snackbar.LENGTH_LONG);
 
 			View sbView = snackbar.getView();
-			TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+			TextView textView = (TextView) sbView.findViewById(com.google.android.material.R.id.snackbar_text);
 			textView.setTextColor(Color.YELLOW);
 			snackbar.show();
 		}

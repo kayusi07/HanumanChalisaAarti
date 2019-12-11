@@ -1,4 +1,0 @@
-#Tue Feb 27 15:48:59 IST 2018
-base.0=H\:\\Projects\\JaiHanuman\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
-path.0=classes.dex
-renamed.0=classes.dex
